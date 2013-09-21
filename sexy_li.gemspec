@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = SexyLi::VERSION
   s.authors     = ["Masaki Komagata"]
   s.email       = ["komagata@gmail.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of SexyLi."
-  s.description = "TODO: Description of SexyLi."
+  s.homepage    = "https://github.com/komagata/sexy_li"
+  s.summary     = "Make easy creating typicaly list."
+  s.description = "Make easy creating typicaly list."
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
