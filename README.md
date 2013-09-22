@@ -22,7 +22,7 @@ _post.html.erb:
     <div class="id"><%= post.id %></div>
     <div class="title"><%= post.title %></div>
 
-Haml or Slim same above.
+Haml or Slim are same above.
 
 ## Installation
 
@@ -33,6 +33,34 @@ Add this line in your Gemfile.
 And bundle.
 
     $ bundle
+
+## Usage
+
+### render_li_for
+
+See above.
+
+### render_li_for with custom partial
+
+    <ul><%= render_li_for @posts, { partial: 'post_small' } %></ul>
+
+_post_small.html.erb:
+
+    <div class="id"><%= post.id %></div>
+    <div class="title"><%= post.title %></div>
+
+### render_tr_for
+
+It put tr tag instead of li tag.
+
+
+### render_content_for
+
+    <ul><%= render_li_for @posts %></ul>
+
+It is same blow.
+
+    <ul><%= render_content_for :li, @posts %></ul>
 
 ## License
 
