@@ -62,6 +62,22 @@ It is same blow.
 
     <ul><%= render_content_for :li, @posts %></ul>
 
+### li_for
+
+    <%= content_tag_for :li, @post %>
+
+It is same blow.
+
+    <%= li_for @post %>
+
+### tr_for
+
+    <%= content_tag_for :tr, @post %>
+
+It is same blow.
+
+    <%= tr_for @post %>
+
 ## License
 
 Dual licensed under the MIT or GPL licenses:
