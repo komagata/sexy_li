@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    sexy_li (0.0.2)
+    sexy_li (0.0.3)
       rails (>= 3.2.0)
 
 GEM
